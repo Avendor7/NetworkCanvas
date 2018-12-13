@@ -1,3 +1,16 @@
-.backg-fill{
-    background-color:red;
+.backg-fill-red{
+    background-color:darkred;
+}
+.backg-fill-green{
+    background-color:darkgreen;
+}
+.backg-fill-blue{
+    background-color:darkblue;
+}
+html,body {
+    height: 100%;
+}
+canvas{
+    height: 100%;
+    width: 100%;
 }
