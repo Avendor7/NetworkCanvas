@@ -1,16 +1,37 @@
-.backg-fill-red{
-    background-color:darkred;
-}
-.backg-fill-green{
-    background-color:darkgreen;
-}
-.backg-fill-blue{
-    background-color:darkblue;
-}
-html,body {
-    height: 100%;
-}
+
+body {
+    margin: 0;
+  }
 canvas{
     height: 100%;
     width: 100%;
+    border: none;
 }
+.css-container {
+    display: grid;
+    grid-template-areas: 
+      "left   center right"
+      "footer footer footer";
+    
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 1fr 200px;
+    
+    height: 100vh;
+    margin:0;
+    padding: 0;
+  }
+  
+  .leftPanel {
+    background: darkblue;
+    grid-area: left;
+  }
+  
+  .rightPanel {
+    background: darkred;
+    grid-area: right;
+  }
+  
+  .footerPanel {
+    background: darkgreen;
+    grid-area: footer
+  }
