@@ -5,7 +5,8 @@
   - PC
   - Server
   - Router
-  - Switch
+  - Managed Switch
+  - Unmanaged Switch
   - Wifi access point
 
 - Cable types
