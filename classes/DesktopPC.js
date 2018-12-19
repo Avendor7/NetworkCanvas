@@ -10,8 +10,8 @@ class DesktopPC extends Devices{
     }
 
     connect() {
+        console.log('connected');
         
-        return true;
     }
 
 }
