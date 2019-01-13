@@ -11,7 +11,7 @@ canvas{
     display: grid;
     grid-template-areas: 
       "left   center right"
-      "footer footer footer";
+      "bottom bottom bottom";
     
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: 1fr 200px;
@@ -31,7 +31,7 @@ canvas{
     grid-area: right;
   }
   
-  .footerPanel {
+  .bottomPanel {
     background: darkgreen;
-    grid-area: footer
+    grid-area: bottom
   }
